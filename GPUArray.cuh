@@ -5,7 +5,7 @@ Last modified: April 10, 2014
 */
    
 /*! \file GPUArray.cuh
-    \brief Defines the DeviceArray and HostDeviceArray classes
+    \brief Defines the DeviceArray and DeviceHostArray classes
 */
 
 #define NDEBUG 
