@@ -96,7 +96,7 @@ public:
 	~DeviceArray() {clear();}
 };	
 
-/** @brief DeviceHostArray simplifies data transfer between Host and Device */
+/** @brief DeviceHostArray expands on DeviceArray to simplify data transfer between Host and Device */
 template<typename T>
 class DeviceHostArray : public DeviceArray<T>
 {
