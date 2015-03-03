@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <iostream>
 
-// Checks return value from CUDA api functions. Adopted from Udacity CUDA cource.
+// Checks a return value from CUDA api functions. Adopted from Udacity CUDA cource.
 #define checkCudaErrors(val) check( (val), #val, __FILE__, __LINE__)
 template<typename T>
 void check(T err, const char* const func, const char* const file, const int line) {
