@@ -5,8 +5,9 @@ Last modified: November 19, 2014
 */
 
 /*! \file Reduce.cuh
-    Custom Reduce for arrays up to 512**3 elements. 
-	The goal of custom code is to have intermediate arrays allocated only once, removing overhead for memory manipulation.
+    Custom Reduce for arrays up to 512**3 elements.
+    Reduction can be performed in parallel on all devices specified by input DeviceArray
+    The goal of this custom code is to have intermediate arrays allocated only once, removing overhead for memory manipulation.
 */
 
 #ifndef REDUCE_CUH
