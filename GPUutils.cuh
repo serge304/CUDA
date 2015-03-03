@@ -15,7 +15,7 @@ void check(T err, const char* const func, const char* const file, const int line
   }
 }
 
-// Calculates number of blocks if number of data points is not divisible by selected number of threads
+// Calculates the number of blocks if the number of data points is not divisible by a selected number of threads
 class Utils
 {
 public: 
