@@ -15,4 +15,15 @@ void check(T err, const char* const func, const char* const file, const int line
   }
 }
 
+// Calculates number of blocks if number of data points is not divisible by selected number of threads
+class Utils
+{
+public: 
+	static int GetBlocks(int nX, int nT) { 
+		if (nX%nT == 0)
+			return nX/nT;
+		else
+			return nX/nT + 1; }
+};
+
 #endif
